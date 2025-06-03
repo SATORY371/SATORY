@@ -1,0 +1,14 @@
+
+.card .back {
+    background: linear-gradient(135deg,
+    #3494e6, #ec6ead);
+    transform: rotateY('180deg');
+}
+
+.card :hover .front{
+    transform: rotateY(180deg);
+}
+
+.card :hover .back {
+     transform: rotateY('360deg');
+}
